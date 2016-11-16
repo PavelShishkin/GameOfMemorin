@@ -75,10 +75,14 @@ public class MainActivity extends AppCompatActivity {
             }
             else if(b1.getText().equals(b2.getText()))
             {
+                /*
                 b1.setVisibility(View.INVISIBLE);
                 b2.setVisibility(View.INVISIBLE);
                 b1.setText("");
                 b2.setText("");
+                */
+                b1.setEnabled(false);
+                b2.setEnabled(false);
                 countClick = 1;
             }
             else
